@@ -1,0 +1,45 @@
+{
+    "Name" = "Geometric Atlas"; 
+    "AppleEventCode" = "GAVi"; 
+    "Classes" =
+	{
+        "MyDocument" =
+		{
+            "AppleEventCode" = "docu"; 
+            "Superclass" = "NSCoreSuite.NSDocument"; 
+            "SupportedCommands" =
+			{
+                "SayHello" = "handleSayHelloScriptCommand:";
+				"Say" = "handleSayScriptCommand:";
+				"Project"="handleProjectCoordinatesScriptCommand:";
+            };
+       }; 
+    };
+    "Commands" =
+	{
+        "SayHello" =
+		{
+            "AppleEventClassCode" = "GAVi";
+            "AppleEventCode" = "SayH";
+            "CommandClass" = "NSScriptCommand";
+        };
+		"Say"=
+		{
+            "AppleEventClassCode" = "GAVi";
+            "AppleEventCode" = "Say ";
+            "CommandClass" = "NSScriptCommand";
+			"Arguments"={"ToSay"={"Type"="NSString";"AppleEventCode"="toSy";};};
+		};
+		"Project"=
+		{
+            "AppleEventClassCode" = "GAVi";
+            "AppleEventCode" = "Proj";
+            "CommandClass" = "NSScriptCommand";
+			"Arguments"={"Coords"={"Type"="NSArray";"AppleEventCode"="Coor";};
+						 "Hemisph"={"Type"="NSString";"AppleEventCode"="Hemi";};
+						 "Key"={Type=NSString;AppleEventCode="Key ";};};
+			"ResultAppleEventCode"="****";
+			"Type"="NSString";
+		};
+    };
+ }

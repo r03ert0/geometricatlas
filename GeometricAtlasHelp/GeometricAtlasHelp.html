@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <title>Geometric Atlas Help</title>
+  <meta name="AppleTitle" content="Geometric Atlas Help">
+  <meta name="AppleFont" content="Helvetica,Arial">
+</head>
+<body>
+<font face="geneva,verdana,helvetica,arial">
+</font>
+<h1 style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial">Geometric Atlas Visualiser</font></h1>
+<font face="geneva,verdana,helvetica,arial"><br>
+<br>
+This application provides an interface to project and visualise
+stereotaxic coordinates over different representations of a cortical
+surface reconstruction, and over the geometric model of the cortical
+surface (Toro, 2003; Toro and Burnod, 2003). Here we describe the
+interface of the
+Geometric Atlas Visualiser and the projection of stereotaxic
+coordinates.<br>
+<br>
+Updates, binaries and source code can be obtained at<br>
+<br>
+<a href="http://brainfolding.sourceforge.net">http://brainfolding.sourceforge.net</a><br>
+<br>
+The authors can be contacted at<br>
+<br>
+<a href="mailto:rto@pasteur.fr">rto [@] pasteur [.] fr</a>&nbsp;&nbsp;
+(Roberto Toro)<br>
+<a href="mailto:yburnod@gmail.com">yburnod [@] gmail [.] com&nbsp;</a>&nbsp;
+&nbsp;&nbsp; (Yves Burnod)<br>
+</font>
+<h2><font face="geneva,verdana,helvetica,arial">1. Distribution
+contents and Starting-up</font></h2>
+<font face="geneva,verdana,helvetica,arial">Two items are contained in
+the Geometric Atlas Visualiser folder:<br>
+<br>
+<table cellpadding="2" cellspacing="10" border="0"
+ style="text-align: left; width: 70%; margin-left: auto; margin-right: auto;">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: left;"> Geometric
+Atlas </td>
+      <td style="vertical-align: top;">Geometric Atlas Visualiser
+application</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"> GA_folder </td>
+      <td style="vertical-align: top;">Resources folder containing
+representations of a cortical surface
+reconstruction (original, smoothed, spherical), mappings of the folding
+patterns (sulcal depth, integrated mean curvature), anatomy constrained
+angular coordinates and geometric model textures (folding pattern,
+folding pattern with sulcal nomenclature, folding pattern with
+cytoarchitectonic regions)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+Geometric Atlas Visualiser is started by double clicking its icon. The
+Geometric Atlas Visualiser opens two windows, the <span
+ style="font-weight: bold;">Panel</span> window and an <span
+ style="font-weight: bold;">Untitled</span> document window. New
+document windows can be created by selecting <span
+ style="font-weight: bold;">New</span> from the <span
+ style="font-weight: bold;">File</span> menu (command-N). By default
+the document window presents an original cortical surface
+reconstruction with sulcal depth mapping and the geometric model
+overlaid.<br>
+<br>
+</font>
+<div style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial"><img src="img/intro.jpg" title=""
+ alt="interface" style="width: 394px; height: 260px;"></font><br>
+<font face="geneva,verdana,helvetica,arial"></font></div>
+<h2><font face="geneva,verdana,helvetica,arial">2. Interface</font></h2>
+<h3><font face="geneva,verdana,helvetica,arial">2.1 Panel window</font></h3>
+<font face="geneva,verdana,helvetica,arial">The <span
+ style="font-weight: bold;">Panel</span> window controls the
+rendering and projection of coordinates. The <span
+ style="font-weight: bold;">Panel</span> window contains three tabs: <span
+ style="font-weight: bold;">Render</span>, <span
+ style="font-weight: bold;">Talairach</span> and <span
+ style="font-weight: bold;">Geometric Atlas</span>.<br>
+<br>
+</font>
+<h4><font face="geneva,verdana,helvetica,arial">2.1.1 Render tab</font></h4>
+<div style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial"><img src="img/PR.jpg" title=""
+ alt="render tab" style="width: 242px; height: 302px;"><br>
+<br>
+</font></div>
+<font face="geneva,verdana,helvetica,arial">The <span
+ style="font-weight: bold;">Render</span> tab controls the
+rendering of the reconstructed cortical surface representations. The
+sliders <span style="font-weight: bold;">XY</span>, <span
+ style="font-weight: bold;">YZ</span> and <span
+ style="font-weight: bold;">ZX</span> control the rotation of the
+surface models in their respective planes. Standard rotations can be
+obtained by clicking in the "unfolded cube" buttons (<span
+ style="font-weight: bold;">S</span>=Superior, <span
+ style="font-weight: bold;">A</span>=Anterior, <span
+ style="font-weight: bold;">L</span>=Lateral, <span
+ style="font-weight: bold;">P</span>=Posterior, <span
+ style="font-weight: bold;">M</span>=Medial, <span
+ style="font-weight: bold;">I</span>=Inferior). The size of the surface
+model can be adjusted by the <span style="font-weight: bold;">Zoom</span>
+slider.<br>
+<br>
+Three different representations of the cortical surface reconstruction
+can be used: <span style="font-weight: bold;">Original</span>, <span
+ style="font-weight: bold;">Smoothed</span> and <span
+ style="font-weight: bold;">Spherical</span>. For each of these
+representations, a polar stereographic projection can be obtained by
+clicking the <span style="font-weight: bold;">Stereographic</span>
+button (click the radio buttons to recover the cartesian projections)<br>
+<br>
+Two mappings of the cortical folding patterns can be used: <span
+ style="font-weight: bold;">Depth</span> (sulcal depth) and <span
+ style="font-weight: bold;">Curvature</span> (integrated mean
+curvature). Further, the geometric model can be overlaid to these
+mappings by selecting the <span style="font-weight: bold;">Geometric
+Model</span> checkbox.<br>
+<br>
+</font>
+<h4><font face="geneva,verdana,helvetica,arial">2.1.2 Talairach Tab</font></h4>
+<div style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial"><img src="img/PT.jpg" title=""
+ alt="Talairach Panel" style="width: 242px; height: 302px;"><br>
+<br>
+</font></div>
+<font face="geneva,verdana,helvetica,arial">The <span
+ style="font-weight: bold;">Talairach</span> tab controls the
+projection of stereotaxic coortinates
+over the representations of the cortical surface reconstruction.
+Coordinates can be entered by directly typing them in the text field,
+or by opening coordinates in an external file (<span
+ style="font-weight: bold;">Open</span> button).
+Coordinates can be saved by clicking the <span
+ style="font-weight: bold;">Save</span> button.<br>
+<br>
+<table cellpadding="2" cellspacing="2" border="0"
+ style="text-align: left; width: 70%; margin-left: auto; margin-right: auto; background-color: rgb(255, 204, 153);">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <h5>Important: Coordinate format.</h5>
+Coordinates are entered in the order <span style="font-weight: bold;">Sagital</span>
+      <span style="font-weight: bold;">Coronal</span> <span
+ style="font-weight: bold;">Axial</span> separated by
+a space. The "#" symbol can be used to write comments that are not read
+by the parser.<br>
+      <br>
+      <span style="font-weight: bold;">Example</span>:<br>
+      <br>
+      <div style="margin-left: 40px;">
+      <pre># visual&nbsp; task coordinates<br>10 -50 0<br>9 -60 5 </pre>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+The stereotaxic Talairach coordinates are projected over the surface
+reconstructions by clicking the <span style="font-weight: bold;">Project</span>
+button. The projection is performed by defining a small sphere centered
+at the three dimensional point defined by the Talairach coordinates.
+The radius of this sphere can be controlled by the distance text field
+and slider. The sphere is divided in three concentric spheres. The
+points over the surface inside the internal concentric sphere are drawn
+in red, the points in the intermediate sphere are drawn in green and
+the points in the external concentric sphere are drawn in blue.<br>
+<br>
+<table cellpadding="2" cellspacing="2" border="0"
+ style="text-align: left; width: 70%; margin-left: auto; margin-right: auto; background-color: rgb(255, 204, 153);">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <h5>Important: Projection of coordinates</h5>
+A single coordinate may produce multiple projections over the cortical
+surface. For example, a point inside a sulcus will produce projections
+at both sulcal walls.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+The projection of stereotaxic coordinates can be visualised in all the
+surface representations and their associated stereographic projections.
+Changing or reselecting a mapping of the folding patterns erases the
+stereotaxic coordinates projection, which can be recovered by clicking
+the <span style="font-weight: bold;">Project</span> button again.<br>
+<br>
+</font>
+<h4><font face="geneva,verdana,helvetica,arial">2.1.3 Geometric Atlas
+tab</font></h4>
+<div style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial"><img src="img/PG.jpg" title=""
+ alt="Geometric Atlas Tab" style="width: 242px; height: 302px;"></font><br>
+</div>
+<font face="geneva,verdana,helvetica,arial"><br>
+The <span style="font-weight: bold;">Geometric Atlas</span> tab allows
+to visualise the stereotaxic coordinates over the geometric model of
+the cortical surface. Resising the <span style="font-weight: bold;">Panel</span>
+window resizes also the <span style="font-weight: bold;">Geometric
+Model</span> image. This image can be saved (in TIFF format) by
+clicking the <span style="font-weight: bold;">Save Image</span>
+button.<br>
+<br>
+<table
+ style="text-align: left; width: 70%; margin-left: auto; margin-right: auto; background-color: rgb(255, 204, 153);"
+ border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <h5>Note: Circular buttons</h5>
+The circular buttons control three preliminary functionalities.<br>
+      <br>
+1. The
+left-most button allows to project the data projected over the surface
+reconstruction (folding pattern mappings, for example) in the geometric
+model.<br>
+      <br>
+2. The middel button allows to change the geometric model image.<br>
+      <br>
+3. The right-most button generates a QuickTime movie from the rotation
+of
+the surface reconstruction around the YZ axis.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</font>
+<h3><font face="geneva,verdana,helvetica,arial">2.2 Document window</font></h3>
+<font face="geneva,verdana,helvetica,arial">The document window
+contains the actual cortical surface reconstruction
+rendering. The document window contains two tabs: <span
+ style="font-weight: bold;">Cortical Surface</span> and
+<span style="font-weight: bold;">Geometric Atlas</span><br>
+<br>
+</font>
+<h4><font face="geneva,verdana,helvetica,arial">2.2.1 Cortical Surface
+tab</font></h4>
+<div style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial"><img src="img/OLG.jpg" title=""
+ alt="original lateral geometricmodel"
+ style="width: 394px; height: 371px;"></font><br>
+</div>
+<font face="geneva,verdana,helvetica,arial"><br>
+The <span style="font-weight: bold;">Cortical Surface</span> tab
+present the selected cortical surface reconstruction, which can be
+interactively rotated by clicking over the model. Resizing the document
+window resizes the surface model. The model image can be saved (as a
+TIFF file) by clicking the <span style="font-weight: bold;">Save Image</span>
+button.<br>
+<br>
+</font>
+<h4><font face="geneva,verdana,helvetica,arial">2.2.2 Geometric Atlas
+tab</font></h4>
+<div style="text-align: center;"><font
+ face="geneva,verdana,helvetica,arial"><img src="img/DG.jpg" title=""
+ alt="Geometric Atlas Document Tab" style="width: 344px; height: 382px;"></font><br>
+</div>
+<font face="geneva,verdana,helvetica,arial"><br>
+The <span style="font-weight: bold;">Geometric Atlas</span> tab is
+under construction. At present it displays the geometric model with
+sulcal nomenclature overlaid. In a future update it will also display
+the projected stereotaxic coordinates, as it done in the <span
+ style="font-weight: bold;">Geometric Atlas</span> tab in the <span
+ style="font-weight: bold;">Panel</span> window. Resizing the document
+window resizes the geometric model. The geometric model image can be
+saved (as a TIFF file) by clicking the <span style="font-weight: bold;">Save
+Image</span> button.<br>
+<br>
+</font>
+<h2><font face="geneva,verdana,helvetica,arial">3. Projection of
+stereotaxic coordinates: a quick tutorial</font></h2>
+<ol>
+  <font face="geneva,verdana,helvetica,arial"> <li>Double click the <span
+ style="font-weight: bold;">Geometric Atlas</span>
+icon. The <span style="font-weight: bold;">Geometric Atlas Visualiser</span>
+Starts-up.</li>
+  <li>Select the <span style="font-weight: bold;">Talairach</span> tab
+in the <span style="font-weight: bold;">Panel</span> window.</li>
+  <li><span style="font-weight: bold;">Copy</span> (command-C) and <span
+ style="font-weight: bold;">Paste</span> (command-V) the following text<br>
+    <br>
+    <div style="margin-left: 40px;">#view colour<br>
+22 -73 -8<br>
+20 -66 -4<br>
+26 -68 -8<br>
+24 -70 -5<br>
+    <br>
+#optical flow<br>
+28 -80 -8<br>
+40 -66 -8<br>
+22 -86 4<br>
+22&nbsp; -86 8<br>
+22 -76 36<br>
+38 -60 -8<br>
+    </div>
+    <br>
+  </li>
+  <li>Select a distance of 5mm by typing it in the <span
+ style="font-weight: bold;">Distance</span> text field or by acting
+over the slider.</li>
+  <li>Click the <span style="font-weight: bold;">Project</span> button
+to project the coordinates</li>
+  <li>In the document window, select the <span
+ style="font-weight: bold;">Cortical Surface</span> tab and rotate the
+surface model to expose its medial surface where the coortinates are
+mapped.</li>
+  <li>You can create a text file with the coortinates you entered by
+clicking the <span style="font-weight: bold;">Save</span> button.</li>
+  <li>The figures show these coordinates mapped over the original
+cortical surface reconstruction, a smoothed representation and a
+stereographic representation.</li>
+  </font>
+</ol>
+<h2 style="text-align: center;"><img src="img/OOS.jpg" title=""
+ alt="original oblique sulcaldepth" style="width: 445px; height: 370px;"><img
+ src="img/SOS.jpg" title="" alt="smoothed oblique sulcaldepth"
+ style="width: 445px; height: 370px;"><img src="img/OsLS.jpg" title=""
+ alt="originalstereographic lateral sulcaldepth"
+ style="width: 471px; height: 415px;"><br>
+</h2>
+<h2><font face="geneva,verdana,helvetica,arial">4. References</font></h2>
+<span style="font-weight: bold;"><font
+ face="geneva,verdana,helvetica,arial">Toro, R. and Burnod, Y.</font></span><font
+ face="geneva,verdana,helvetica,arial"> (2003)
+"Geometric atlas: modeling the cortex as an organized surface"
+NeuroImage, in Press.<br>
+<span style="font-weight: bold;">Toro, R.</span> (2003) "Ontogenesis of
+the cortical organisation; modelling and analysis" PhD Thesis,
+Universit&eacute; Pierre et Marie Curie, Paris 6.
+http://www.snv.jussieu.fr/insermu483/geometricatlas/index.html<br>
+</font>
+</body>
+</html>

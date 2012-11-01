@@ -1,0 +1,35 @@
+{
+    "Classes" =
+	{
+        "MyDocument" =
+		{
+            "Description" = "Geometric Atlas document"; 
+            "Name" = "View"; 
+            "PluralName" = "Views"; 
+        }; 
+    }; 
+    "Commands" =
+	{
+        "SayHello" =
+		{
+			"Description" = "Show that you are polite";
+			"Name" = "GASayHello";
+		};
+		"Say"=
+		{
+			"Description"="Say something beautiful";
+			"Name" = "GASay";
+			"Arguments"={"ToSay"={"Name"="pip";"Description"="what you have to say";};};
+		};
+		"Project"=
+		{
+			"Description"="Project data in the Geometric Atlas";
+			"Name" = "project";
+			"Arguments"={"Coords"={"Name"="coordinates";"Description"="The coordinates to project";};
+						 "Hemisph"={"Name"="at";"Description"="At which hemisphere, Left or Right";};
+						 "Key"={Name="with key";Description="The key that will appear in GAV";};};
+		};
+    }; 
+    "Description" = "Scriptable Geometric Atlas Visualiser"; 
+    "Name" = "Geometric Atlas"; 
+}	

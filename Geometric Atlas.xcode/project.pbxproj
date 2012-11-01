@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		080E96D9FE201CDB7F000001 = {
+			fileRef = 2A37F4B9FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DAFE201CDB7F000001 = {
+			fileRef = 2A37F4B6FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DBFE201CDB7F000001 = {
+			fileRef = 2A37F4B4FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		089C165FFE840EACC02AAC07 = {
+			children = (
+				089C1660FE840EACC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1660FE840EACC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1661FE840EACC02AAC07 = {
+			fileRef = 089C165FFE840EACC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A6FEA54F5311CA2CBB = {
+			children = (
+				1058C7A7FEA54F5311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7A7FEA54F5311CA2CBB = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7A8FEA54F5311CA2CBB = {
+			children = (
+				2A37F4C5FDCFA73011CA2CEA,
+				2A37F4C4FDCFA73011CA2CEA,
+				F57D5D5D0525BA49010F87CE,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7A9FEA54F5311CA2CBB = {
+			fileRef = 1058C7A7FEA54F5311CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		1758732AFF379DA111CA2CBB = {
+			explicitFileType = wrapper.application;
+			fallbackIsa = PBXFileReference;
+			isa = PBXApplicationReference;
+			path = "Geometric Atlas.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FB0FE9D524F11CA2CBB = {
+			children = (
+				1758732AFF379DA111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+		2A37F4A9FDCFA73011CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA,
+				4A9504D1FFE6A4CB11CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA;
+			projectDirPath = "";
+			targets = (
+				2A37F4C6FDCFA73011CA2CEA,
+			);
+		};
+		2A37F4AAFDCFA73011CA2CEA = {
+			children = (
+				2A37F4AFFDCFA73011CA2CEA,
+				2A37F4ABFDCFA73011CA2CEA,
+				F57D5D430525AC66010F87CE,
+				2A37F4B8FDCFA73011CA2CEA,
+				2A37F4C3FDCFA73011CA2CEA,
+				19C28FB0FE9D524F11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Geometric Atlas Cocoa";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA = {
+			children = (
+				F537219005BD66C601F75CE8,
+				F537219105BD66C601F75CE8,
+				F537219205BD66C601F75CE8,
+				F537219305BD66C601F75CE8,
+				F537219405BD66C601F75CE8,
+				F537219505BD66C601F75CE8,
+				F57D5D8805289A6D010F87CE,
+				F57D5D8905289A6D010F87CE,
+				F5D0D70605A42D0D01707236,
+				F5D0D70705A42D0D01707236,
+				F5D0D70805A42D0D01707236,
+				F5D0D70905A42D0D01707236,
+			);
+			isa = PBXGroup;
+			name = "Objective C";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA = {
+			children = (
+				2A37F4B0FDCFA73011CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Main;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B0FDCFA73011CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B5FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MyDocument.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B5FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MyDocument.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B7FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B7FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA = {
+			children = (
+				EE61483C063944D7005EAFDB,
+				2A37F4B9FDCFA73011CA2CEA,
+				2A37F4B6FDCFA73011CA2CEA,
+				2A37F4B4FDCFA73011CA2CEA,
+				089C165FFE840EACC02AAC07,
+				F5DBC3D30538B3B401C726C1,
+				F57897E705393DFD016527F0,
+				EE06D5310639498900E04B93,
+				EE4C5A4406394A0B00F6AEBD,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA = {
+			children = (
+				2A37F4BAFDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = Credits.rtf;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4BAFDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			name = English;
+			path = English.lproj/Credits.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA = {
+			children = (
+				1058C7A6FEA54F5311CA2CBB,
+				1058C7A8FEA54F5311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4C4FDCFA73011CA2CEA = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2A37F4C5FDCFA73011CA2CEA = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2A37F4C6FDCFA73011CA2CEA = {
+			buildPhases = (
+				2A37F4C7FDCFA73011CA2CEA,
+				2A37F4C9FDCFA73011CA2CEA,
+				2A37F4CEFDCFA73011CA2CEA,
+				2A37F4D1FDCFA73011CA2CEA,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Geometric Atlas";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = "Geometric Atlas";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Geometric Atlas Cocoa";
+			productReference = 1758732AFF379DA111CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>????</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string></string>
+			<key>CFBundleTypeName</key>
+			<string>DocumentType</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>????</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>MyDocument</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Geometric Atlas</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Geometric Atlas Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Geometric Atlas Help</string>
+	<key>CFBundleIconFile</key>
+	<string>GA</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.ufCR.GeometricAtlas</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Geometric Atlas</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		2A37F4C7FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				F57D5D8A05289A6D010F87CE,
+				F5D0D6E705A41AF401707236,
+				F5D0D6E905A41AF401707236,
+				F5D0D6EB05A41AF401707236,
+				F5D0D6ED05A41AF401707236,
+				F5D0D6EF05A41AF401707236,
+				F5D0D6F105A41AF401707236,
+				F5D0D70A05A42D0D01707236,
+				F5D0D70C05A42D0D01707236,
+				F537218905BD657301F75CE8,
+				F537219605BD66C601F75CE8,
+				F537219805BD66C601F75CE8,
+				F537219A05BD66C601F75CE8,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4C9FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96D9FE201CDB7F000001,
+				080E96DAFE201CDB7F000001,
+				080E96DBFE201CDB7F000001,
+				089C1661FE840EACC02AAC07,
+				F57897E805393DFD016527F0,
+				EE61483D063944D7005EAFDB,
+				EE06D5320639498900E04B93,
+				EE4C5A4506394A0B00F6AEBD,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4CEFDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4D0FDCFA73011CA2CEA,
+				F57D5D8B05289A6D010F87CE,
+				F5D0D6E605A41AF401707236,
+				F5D0D6E805A41AF401707236,
+				F5D0D6EA05A41AF401707236,
+				F5D0D6EC05A41AF401707236,
+				F5D0D6EE05A41AF401707236,
+				F5D0D6F005A41AF401707236,
+				F5D0D70B05A42D0D01707236,
+				F5D0D70D05A42D0D01707236,
+				F537218805BD657301F75CE8,
+				F537219705BD66C601F75CE8,
+				F537219905BD66C601F75CE8,
+				F537219B05BD66C601F75CE8,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4D0FDCFA73011CA2CEA = {
+			fileRef = 2A37F4B0FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		2A37F4D1FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A9FEA54F5311CA2CBB,
+				F57D5D6F0525BA49010F87CE,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504D0FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//EE0
+//EE1
+//EE2
+//EE3
+//EE4
+		EE06D5310639498900E04B93 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.scriptSuite;
+			path = "Geometric Atlas.scriptSuite";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		EE06D5320639498900E04B93 = {
+			fileRef = EE06D5310639498900E04B93;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EE06D588063949D300E04B93 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.scriptTerminology;
+			name = English;
+			path = "English.lproj/Geometric Atlas.scriptTerminology";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		EE4C5A4406394A0B00F6AEBD = {
+			children = (
+				EE06D588063949D300E04B93,
+			);
+			isa = PBXVariantGroup;
+			name = "Geometric Atlas.scriptTerminology";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		EE4C5A4506394A0B00F6AEBD = {
+			fileRef = EE4C5A4406394A0B00F6AEBD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EE61483C063944D7005EAFDB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "suite+terminology backup.txt";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		EE61483D063944D7005EAFDB = {
+			fileRef = EE61483C063944D7005EAFDB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//EE0
+//EE1
+//EE2
+//EE3
+//EE4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F537218605BD657301F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = volume.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/volume.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F537218705BD657301F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = volume.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/volume.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F537218805BD657301F75CE8 = {
+			fileRef = F537218605BD657301F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537218905BD657301F75CE8 = {
+			fileRef = F537218705BD657301F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537219005BD66C601F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AppController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F537219105BD66C601F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = AppController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F537219205BD66C601F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MyDocument.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F537219305BD66C601F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MyDocument.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F537219405BD66C601F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = VolumeView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F537219505BD66C601F75CE8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = VolumeView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F537219605BD66C601F75CE8 = {
+			fileRef = F537219005BD66C601F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537219705BD66C601F75CE8 = {
+			fileRef = F537219105BD66C601F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537219805BD66C601F75CE8 = {
+			fileRef = F537219205BD66C601F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537219905BD66C601F75CE8 = {
+			fileRef = F537219305BD66C601F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537219A05BD66C601F75CE8 = {
+			fileRef = F537219405BD66C601F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F537219B05BD66C601F75CE8 = {
+			fileRef = F537219505BD66C601F75CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57897E705393DFD016527F0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = GA.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F57897E805393DFD016527F0 = {
+			fileRef = F57897E705393DFD016527F0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57D5D430525AC66010F87CE = {
+			children = (
+				F5D0D6D805A41AF401707236,
+				F5D0D6D905A41AF401707236,
+				F5D0D6DA05A41AF401707236,
+				F5D0D6DB05A41AF401707236,
+				F5D0D6DC05A41AF401707236,
+				F5D0D6DD05A41AF401707236,
+				F5D0D6DE05A41AF401707236,
+				F5D0D6DF05A41AF401707236,
+				F5D0D6E005A41AF401707236,
+				F5D0D6E105A41AF401707236,
+				F5D0D6E205A41AF401707236,
+				F5D0D6E305A41AF401707236,
+				F537218605BD657301F75CE8,
+				F537218705BD657301F75CE8,
+			);
+			isa = PBXGroup;
+			name = "Standard C";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F57D5D5D0525BA49010F87CE = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = OpenGL.framework;
+			path = /System/Library/Frameworks/OpenGL.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F57D5D6F0525BA49010F87CE = {
+			fileRef = F57D5D5D0525BA49010F87CE;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57D5D8805289A6D010F87CE = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MyQuickDrawView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F57D5D8905289A6D010F87CE = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MyQuickDrawView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F57D5D8A05289A6D010F87CE = {
+			fileRef = F57D5D8805289A6D010F87CE;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57D5D8B05289A6D010F87CE = {
+			fileRef = F57D5D8905289A6D010F87CE;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6D805A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = editmesh.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/editmesh.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6D905A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = editmesh.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/editmesh.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6DA05A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = geometricatlas.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/geometricatlas.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6DB05A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = geometricatlas.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/geometricatlas.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6DC05A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = math3D.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/math3D.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6DD05A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = math3D.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/math3D.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6DE05A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = mesh.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/mesh.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6DF05A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = mesh.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/mesh.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6E005A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = talairach.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/talairach.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6E105A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = talairach.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/talairach.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6E205A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = util.c;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/util.c";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6E305A41AF401707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = util.h;
+			path = "/Users/robertotoro/Documents/Mi C/Standard C/util.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D6E605A41AF401707236 = {
+			fileRef = F5D0D6D805A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6E705A41AF401707236 = {
+			fileRef = F5D0D6D905A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6E805A41AF401707236 = {
+			fileRef = F5D0D6DA05A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6E905A41AF401707236 = {
+			fileRef = F5D0D6DB05A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6EA05A41AF401707236 = {
+			fileRef = F5D0D6DC05A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6EB05A41AF401707236 = {
+			fileRef = F5D0D6DD05A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6EC05A41AF401707236 = {
+			fileRef = F5D0D6DE05A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6ED05A41AF401707236 = {
+			fileRef = F5D0D6DF05A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6EE05A41AF401707236 = {
+			fileRef = F5D0D6E005A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6EF05A41AF401707236 = {
+			fileRef = F5D0D6E105A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6F005A41AF401707236 = {
+			fileRef = F5D0D6E205A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D6F105A41AF401707236 = {
+			fileRef = F5D0D6E305A41AF401707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D70605A42D0D01707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = MyOpenGLView.h;
+			path = "/Users/robertotoro/Documents/Mi C/Objective C/MyOpenGLView.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D70705A42D0D01707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MyOpenGLView.m;
+			path = "/Users/robertotoro/Documents/Mi C/Objective C/MyOpenGLView.m";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D70805A42D0D01707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = Trackball.h;
+			path = "/Users/robertotoro/Documents/Mi C/Objective C/Trackball.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D70905A42D0D01707236 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = Trackball.m;
+			path = "/Users/robertotoro/Documents/Mi C/Objective C/Trackball.m";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5D0D70A05A42D0D01707236 = {
+			fileRef = F5D0D70605A42D0D01707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D70B05A42D0D01707236 = {
+			fileRef = F5D0D70705A42D0D01707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D70C05A42D0D01707236 = {
+			fileRef = F5D0D70805A42D0D01707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0D70D05A42D0D01707236 = {
+			fileRef = F5D0D70905A42D0D01707236;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5DBC3D30538B3B401C726C1 = {
+			fallbackIsa = PBXFileReference;
+			includeInIndex = 1;
+			isa = PBXFolderReference;
+			lastKnownFileType = folder;
+			path = "Geometric Atlas Help";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA;
+}
