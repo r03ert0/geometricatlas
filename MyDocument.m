@@ -1065,7 +1065,8 @@
 		[img_data	compositeToPoint:NSZeroPoint
 					operation:NSCompositeSourceOver];
 	[img_gm unlockFocus];
-	if(img_data) /*[quickDrawView setPicture:img_data];*/ [quickDrawView setPicture:img_gm];
+	//if(img_data) /*[quickDrawView setPicture:img_data];*/
+	[quickDrawView setPicture:img_gm];
 	[img_gm release];
 	[quickDrawView setNeedsDisplay:YES];
 }
