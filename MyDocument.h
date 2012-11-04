@@ -74,9 +74,10 @@
 
 // General mesh handling methods
 -(IBAction) openMesh: (id) sender;
+-(IBAction) saveMesh: (id) sender;
+-(IBAction) meshAction: (id) sender;
 -(void) openMesh:(MeshRec*)mesh fromFile:(NSString*)filename;
 -(void) setMesh:(MeshRec*)mesh;
--(IBAction) meshAction: (id) sender;
 
 -(IBAction) openVerticesData: (id) sender;
 -(void) openVerticesData:(float**)txtr fromFile:(NSString*)filename;

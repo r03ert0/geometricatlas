@@ -3,284 +3,106 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 45;
 	objects = {
 
-/* Begin PBXApplicationTarget section */
-		2A37F4C6FDCFA73011CA2CEA /* Geometric Atlas */ = {
-			isa = PBXApplicationTarget;
-			buildConfigurationList = 6286197009277B3E0060DCC8 /* Build configuration list for PBXApplicationTarget "Geometric Atlas" */;
-			buildPhases = (
-				2A37F4C7FDCFA73011CA2CEA /* Headers */,
-				2A37F4C9FDCFA73011CA2CEA /* Resources */,
-				2A37F4CEFDCFA73011CA2CEA /* Sources */,
-				2A37F4D1FDCFA73011CA2CEA /* Frameworks */,
-			);
-			dependencies = (
-			);
-			name = "Geometric Atlas";
-			productInstallPath = "$(HOME)/Applications";
-			productName = "Geometric Atlas Cocoa";
-			productReference = 62D79261163BF08100D32C82 /* Geometric Atlas.app */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>????</string>
-			</array>
-			<key>CFBundleTypeIconFile</key>
-			<string></string>
-			<key>CFBundleTypeName</key>
-			<string>DocumentType</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>????</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>NSDocumentClass</key>
-			<string>MyDocument</string>
-		</dict>
-	</array>
-	<key>CFBundleExecutable</key>
-	<string>Geometric Atlas</string>
-	<key>CFBundleHelpBookFolder</key>
-	<string>Geometric Atlas Help</string>
-	<key>CFBundleHelpBookName</key>
-	<string>Geometric Atlas Help</string>
-	<key>CFBundleIconFile</key>
-	<string>GA</string>
-	<key>CFBundleIdentifier</key>
-	<string>org.ufCR.GeometricAtlas</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>Geometric Atlas</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>0.1</string>
-	<key>NSAppleScriptEnabled</key>
-	<string>YES</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-</dict>
-</plist>
-";
-		};
-/* End PBXApplicationTarget section */
-
 /* Begin PBXBuildFile section */
-		080E96D9FE201CDB7F000001 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
-		080E96DAFE201CDB7F000001 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
-		080E96DBFE201CDB7F000001 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
-		089C1661FE840EACC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
-		1058C7A9FEA54F5311CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		2A37F4D0FDCFA73011CA2CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		6215DBAE09F90D80005649DE /* MyOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6215DBAC09F90D80005649DE /* MyOpenGLView.h */; };
-		6215DBAF09F90D80005649DE /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6215DBAD09F90D80005649DE /* MyOpenGLView.m */; };
-		626296720A173F8900256F4E /* Trackball.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296700A173F8900256F4E /* Trackball.h */; };
-		626296730A173F8900256F4E /* Trackball.m in Sources */ = {isa = PBXBuildFile; fileRef = 626296710A173F8900256F4E /* Trackball.m */; };
-		626296820A173FBC00256F4E /* editmesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296740A173FBB00256F4E /* editmesh.c */; };
-		626296830A173FBC00256F4E /* editmesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296750A173FBB00256F4E /* editmesh.h */; };
-		626296840A173FBC00256F4E /* geometricatlas.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296760A173FBB00256F4E /* geometricatlas.c */; };
-		626296850A173FBC00256F4E /* geometricatlas.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296770A173FBB00256F4E /* geometricatlas.h */; };
-		626296860A173FBC00256F4E /* math3D.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296780A173FBB00256F4E /* math3D.c */; };
-		626296870A173FBC00256F4E /* math3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296790A173FBB00256F4E /* math3D.h */; };
-		626296880A173FBC00256F4E /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 6262967A0A173FBB00256F4E /* mesh.c */; };
-		626296890A173FBC00256F4E /* mesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6262967B0A173FBB00256F4E /* mesh.h */; };
-		6262968A0A173FBC00256F4E /* talairach.c in Sources */ = {isa = PBXBuildFile; fileRef = 6262967C0A173FBB00256F4E /* talairach.c */; };
-		6262968B0A173FBC00256F4E /* talairach.h in Headers */ = {isa = PBXBuildFile; fileRef = 6262967D0A173FBC00256F4E /* talairach.h */; };
-		6262968C0A173FBC00256F4E /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 6262967E0A173FBC00256F4E /* util.c */; };
-		6262968D0A173FBC00256F4E /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 6262967F0A173FBC00256F4E /* util.h */; };
-		6262968E0A173FBC00256F4E /* volume.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296800A173FBC00256F4E /* volume.c */; };
-		6262968F0A173FBC00256F4E /* volume.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296810A173FBC00256F4E /* volume.h */; };
-		626296ED0A17443D00256F4E /* curvature.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 626296E10A17443D00256F4E /* curvature.vf1 */; };
-		626296EE0A17443D00256F4E /* cytoarchitecture512.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E20A17443D00256F4E /* cytoarchitecture512.tif */; };
-		626296EF0A17443D00256F4E /* geometric_model.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296E30A17443D00256F4E /* geometric_model.3dmf */; };
-		626296F00A17443D00256F4E /* geometric_model.vf3 in Resources */ = {isa = PBXBuildFile; fileRef = 626296E40A17443D00256F4E /* geometric_model.vf3 */; };
-		626296F10A17443D00256F4E /* gm.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E50A17443D00256F4E /* gm.tif */; };
-		626296F20A17443D00256F4E /* gm_brodman.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E60A17443D00256F4E /* gm_brodman.tif */; };
-		626296F30A17443D00256F4E /* gm_sulc.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E70A17443D00256F4E /* gm_sulc.tif */; };
-		626296F40A17443D00256F4E /* mean.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 626296E80A17443D00256F4E /* mean.vf1 */; };
-		626296F50A17443D00256F4E /* original.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296E90A17443D00256F4E /* original.3dmf */; };
-		626296F60A17443D00256F4E /* smooth.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296EA0A17443D00256F4E /* smooth.3dmf */; };
-		626296F70A17443D00256F4E /* spherical.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296EB0A17443D00256F4E /* spherical.3dmf */; };
-		626296F80A17443D00256F4E /* sulcal_depth.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 626296EC0A17443D00256F4E /* sulcal_depth.vf1 */; };
-		62D791F0163BEFED00D32C82 /* MyView.h in Headers */ = {isa = PBXBuildFile; fileRef = F57D5D8805289A6D010F87CE /* MyView.h */; };
-		62D791F1163BEFED00D32C82 /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F537219005BD66C601F75CE8 /* AppController.h */; };
-		62D791F2163BEFED00D32C82 /* MyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = F537219205BD66C601F75CE8 /* MyDocument.h */; };
-		62D791F3163BEFED00D32C82 /* VolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F537219405BD66C601F75CE8 /* VolumeView.h */; };
-		62D791F4163BEFED00D32C82 /* MyOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6215DBAC09F90D80005649DE /* MyOpenGLView.h */; };
-		62D791F5163BEFED00D32C82 /* Trackball.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296700A173F8900256F4E /* Trackball.h */; };
-		62D791F6163BEFED00D32C82 /* editmesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296750A173FBB00256F4E /* editmesh.h */; };
-		62D791F7163BEFED00D32C82 /* geometricatlas.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296770A173FBB00256F4E /* geometricatlas.h */; };
-		62D791F8163BEFED00D32C82 /* math3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296790A173FBB00256F4E /* math3D.h */; };
-		62D791F9163BEFED00D32C82 /* mesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6262967B0A173FBB00256F4E /* mesh.h */; };
-		62D791FA163BEFED00D32C82 /* talairach.h in Headers */ = {isa = PBXBuildFile; fileRef = 6262967D0A173FBC00256F4E /* talairach.h */; };
-		62D791FB163BEFED00D32C82 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 6262967F0A173FBC00256F4E /* util.h */; };
-		62D791FC163BEFED00D32C82 /* volume.h in Headers */ = {isa = PBXBuildFile; fileRef = 626296810A173FBC00256F4E /* volume.h */; };
-		62D791FD163BEFED00D32C82 /* colourmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EC282D0BB2AF430095AEAC /* colourmap.h */; };
-		62D791FF163BEFED00D32C82 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
-		62D79200163BEFED00D32C82 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
-		62D79201163BEFED00D32C82 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
-		62D79202163BEFED00D32C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
-		62D79203163BEFED00D32C82 /* GA.icns in Resources */ = {isa = PBXBuildFile; fileRef = F57897E705393DFD016527F0 /* GA.icns */; };
-		62D79204163BEFED00D32C82 /* Geometric Atlas.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = EE06D5310639498900E04B93 /* Geometric Atlas.scriptSuite */; };
-		62D79205163BEFED00D32C82 /* Geometric Atlas.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = EE4C5A4406394A0B00F6AEBD /* Geometric Atlas.scriptTerminology */; };
-		62D79206163BEFED00D32C82 /* curvature.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 626296E10A17443D00256F4E /* curvature.vf1 */; };
-		62D79207163BEFED00D32C82 /* cytoarchitecture512.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E20A17443D00256F4E /* cytoarchitecture512.tif */; };
-		62D79208163BEFED00D32C82 /* geometric_model.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296E30A17443D00256F4E /* geometric_model.3dmf */; };
-		62D79209163BEFED00D32C82 /* geometric_model.vf3 in Resources */ = {isa = PBXBuildFile; fileRef = 626296E40A17443D00256F4E /* geometric_model.vf3 */; };
-		62D7920A163BEFED00D32C82 /* gm.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E50A17443D00256F4E /* gm.tif */; };
-		62D7920B163BEFED00D32C82 /* gm_brodman.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E60A17443D00256F4E /* gm_brodman.tif */; };
-		62D7920C163BEFED00D32C82 /* gm_sulc.tif in Resources */ = {isa = PBXBuildFile; fileRef = 626296E70A17443D00256F4E /* gm_sulc.tif */; };
-		62D7920D163BEFED00D32C82 /* mean.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 626296E80A17443D00256F4E /* mean.vf1 */; };
-		62D7920E163BEFED00D32C82 /* original.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296E90A17443D00256F4E /* original.3dmf */; };
-		62D7920F163BEFED00D32C82 /* smooth.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296EA0A17443D00256F4E /* smooth.3dmf */; };
-		62D79210163BEFED00D32C82 /* spherical.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 626296EB0A17443D00256F4E /* spherical.3dmf */; };
-		62D79211163BEFED00D32C82 /* sulcal_depth.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 626296EC0A17443D00256F4E /* sulcal_depth.vf1 */; };
-		62D79213163BEFED00D32C82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		62D79214163BEFED00D32C82 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D5D8905289A6D010F87CE /* MyView.m */; };
-		62D79215163BEFED00D32C82 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F537219105BD66C601F75CE8 /* AppController.m */; };
-		62D79216163BEFED00D32C82 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F537219305BD66C601F75CE8 /* MyDocument.m */; };
-		62D79217163BEFED00D32C82 /* VolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F537219505BD66C601F75CE8 /* VolumeView.m */; };
-		62D79218163BEFED00D32C82 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6215DBAD09F90D80005649DE /* MyOpenGLView.m */; };
-		62D79219163BEFED00D32C82 /* Trackball.m in Sources */ = {isa = PBXBuildFile; fileRef = 626296710A173F8900256F4E /* Trackball.m */; };
-		62D7921A163BEFED00D32C82 /* editmesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296740A173FBB00256F4E /* editmesh.c */; };
-		62D7921B163BEFED00D32C82 /* geometricatlas.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296760A173FBB00256F4E /* geometricatlas.c */; };
-		62D7921C163BEFED00D32C82 /* math3D.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296780A173FBB00256F4E /* math3D.c */; };
-		62D7921D163BEFED00D32C82 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 6262967A0A173FBB00256F4E /* mesh.c */; };
-		62D7921E163BEFED00D32C82 /* talairach.c in Sources */ = {isa = PBXBuildFile; fileRef = 6262967C0A173FBB00256F4E /* talairach.c */; };
-		62D7921F163BEFED00D32C82 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 6262967E0A173FBC00256F4E /* util.c */; };
-		62D79220163BEFED00D32C82 /* volume.c in Sources */ = {isa = PBXBuildFile; fileRef = 626296800A173FBC00256F4E /* volume.c */; };
-		62D79222163BEFED00D32C82 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		62D79223163BEFED00D32C82 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57D5D5D0525BA49010F87CE /* OpenGL.framework */; };
-		62D7929F163C04FA00D32C82 /* GeometricAtlasHelp.html in Resources */ = {isa = PBXBuildFile; fileRef = 62D79291163C04FA00D32C82 /* GeometricAtlasHelp.html */; };
-		62D792A0163C04FA00D32C82 /* DG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79293163C04FA00D32C82 /* DG.jpg */; };
-		62D792A1163C04FA00D32C82 /* intro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79294163C04FA00D32C82 /* intro.jpg */; };
-		62D792A2163C04FA00D32C82 /* OLG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79295163C04FA00D32C82 /* OLG.jpg */; };
-		62D792A3163C04FA00D32C82 /* OMS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79296163C04FA00D32C82 /* OMS.jpg */; };
-		62D792A4163C04FA00D32C82 /* OOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79297163C04FA00D32C82 /* OOS.jpg */; };
-		62D792A5163C04FA00D32C82 /* OsLS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79298163C04FA00D32C82 /* OsLS.jpg */; };
-		62D792A6163C04FA00D32C82 /* PG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D79299163C04FA00D32C82 /* PG.jpg */; };
-		62D792A7163C04FA00D32C82 /* PR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D7929A163C04FA00D32C82 /* PR.jpg */; };
-		62D792A8163C04FA00D32C82 /* PT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D7929B163C04FA00D32C82 /* PT.jpg */; };
-		62D792A9163C04FA00D32C82 /* SLGc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D7929C163C04FA00D32C82 /* SLGc.jpg */; };
-		62D792AA163C04FA00D32C82 /* SOG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D7929D163C04FA00D32C82 /* SOG.jpg */; };
-		62D792AB163C04FA00D32C82 /* SOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D7929E163C04FA00D32C82 /* SOS.jpg */; };
-		62EC282E0BB2AF430095AEAC /* colourmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EC282D0BB2AF430095AEAC /* colourmap.h */; };
-		EE06D5320639498900E04B93 /* Geometric Atlas.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = EE06D5310639498900E04B93 /* Geometric Atlas.scriptSuite */; };
-		EE4C5A4506394A0B00F6AEBD /* Geometric Atlas.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = EE4C5A4406394A0B00F6AEBD /* Geometric Atlas.scriptTerminology */; };
-		F537219605BD66C601F75CE8 /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F537219005BD66C601F75CE8 /* AppController.h */; };
-		F537219705BD66C601F75CE8 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F537219105BD66C601F75CE8 /* AppController.m */; };
-		F537219805BD66C601F75CE8 /* MyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = F537219205BD66C601F75CE8 /* MyDocument.h */; };
-		F537219905BD66C601F75CE8 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F537219305BD66C601F75CE8 /* MyDocument.m */; };
-		F537219A05BD66C601F75CE8 /* VolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F537219405BD66C601F75CE8 /* VolumeView.h */; };
-		F537219B05BD66C601F75CE8 /* VolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F537219505BD66C601F75CE8 /* VolumeView.m */; };
-		F57897E805393DFD016527F0 /* GA.icns in Resources */ = {isa = PBXBuildFile; fileRef = F57897E705393DFD016527F0 /* GA.icns */; };
-		F57D5D6F0525BA49010F87CE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57D5D5D0525BA49010F87CE /* OpenGL.framework */; };
-		F57D5D8A05289A6D010F87CE /* MyView.h in Headers */ = {isa = PBXBuildFile; fileRef = F57D5D8805289A6D010F87CE /* MyView.h */; };
-		F57D5D8B05289A6D010F87CE /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D5D8905289A6D010F87CE /* MyView.m */; };
+		6209C7B01644363000B5BD2C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7A51644363000B5BD2C /* AppController.m */; };
+		6209C7B11644363000B5BD2C /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7A71644363000B5BD2C /* MyDocument.m */; };
+		6209C7B21644363000B5BD2C /* VolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7A91644363000B5BD2C /* VolumeView.m */; };
+		6209C7B31644363000B5BD2C /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7AB1644363000B5BD2C /* MyView.m */; };
+		6209C7B41644363000B5BD2C /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7AD1644363000B5BD2C /* MyOpenGLView.m */; };
+		6209C7B51644363000B5BD2C /* Trackball.m in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7AF1644363000B5BD2C /* Trackball.m */; };
+		6209C7C61644363D00B5BD2C /* editmesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7B81644363D00B5BD2C /* editmesh.c */; };
+		6209C7C71644363D00B5BD2C /* geometricatlas.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7BA1644363D00B5BD2C /* geometricatlas.c */; };
+		6209C7C81644363D00B5BD2C /* math3D.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7BC1644363D00B5BD2C /* math3D.c */; };
+		6209C7C91644363D00B5BD2C /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7BE1644363D00B5BD2C /* mesh.c */; };
+		6209C7CA1644363D00B5BD2C /* talairach.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7C01644363D00B5BD2C /* talairach.c */; };
+		6209C7CB1644363D00B5BD2C /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7C21644363D00B5BD2C /* util.c */; };
+		6209C7CC1644363D00B5BD2C /* volume.c in Sources */ = {isa = PBXBuildFile; fileRef = 6209C7C41644363D00B5BD2C /* volume.c */; };
+		6209C7DA1644364E00B5BD2C /* curvature.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7CE1644364E00B5BD2C /* curvature.vf1 */; };
+		6209C7DB1644364E00B5BD2C /* cytoarchitecture512.tif in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7CF1644364E00B5BD2C /* cytoarchitecture512.tif */; };
+		6209C7DC1644364E00B5BD2C /* geometric_model.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D01644364E00B5BD2C /* geometric_model.3dmf */; };
+		6209C7DD1644364E00B5BD2C /* geometric_model.vf3 in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D11644364E00B5BD2C /* geometric_model.vf3 */; };
+		6209C7DE1644364E00B5BD2C /* gm.tif in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D21644364E00B5BD2C /* gm.tif */; };
+		6209C7DF1644364E00B5BD2C /* gm_brodman.tif in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D31644364E00B5BD2C /* gm_brodman.tif */; };
+		6209C7E01644364E00B5BD2C /* gm_sulc.tif in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D41644364E00B5BD2C /* gm_sulc.tif */; };
+		6209C7E11644364E00B5BD2C /* mean.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D51644364E00B5BD2C /* mean.vf1 */; };
+		6209C7E21644364E00B5BD2C /* original.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D61644364E00B5BD2C /* original.3dmf */; };
+		6209C7E31644364E00B5BD2C /* smooth.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D71644364E00B5BD2C /* smooth.3dmf */; };
+		6209C7E41644364E00B5BD2C /* spherical.3dmf in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D81644364E00B5BD2C /* spherical.3dmf */; };
+		6209C7E51644364E00B5BD2C /* sulcal_depth.vf1 in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7D91644364E00B5BD2C /* sulcal_depth.vf1 */; };
+		6209C7EB164436DF00B5BD2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7E9164436DF00B5BD2C /* MainMenu.xib */; };
+		6209C7EC164436DF00B5BD2C /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7EA164436DF00B5BD2C /* MyDocument.xib */; };
+		6209C80D164437A300B5BD2C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6209C80C164437A300B5BD2C /* OpenGL.framework */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
-		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2564AD2C0F5327BB00F57823 /* Geometric_Atlas_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometric_Atlas_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		6215DBAC09F90D80005649DE /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
-		6215DBAD09F90D80005649DE /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
-		626296700A173F8900256F4E /* Trackball.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Trackball.h; path = "../../../Documents/Mi C/Objective C/Trackball.h"; sourceTree = SOURCE_ROOT; };
-		626296710A173F8900256F4E /* Trackball.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = Trackball.m; path = "../../../Documents/Mi C/Objective C/Trackball.m"; sourceTree = SOURCE_ROOT; };
-		626296740A173FBB00256F4E /* editmesh.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = editmesh.c; path = "../../../Documents/Mi C/Standard C/editmesh.c"; sourceTree = SOURCE_ROOT; };
-		626296750A173FBB00256F4E /* editmesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = editmesh.h; path = "../../../Documents/Mi C/Standard C/editmesh.h"; sourceTree = SOURCE_ROOT; };
-		626296760A173FBB00256F4E /* geometricatlas.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = geometricatlas.c; path = "../../../Documents/Mi C/Standard C/geometricatlas.c"; sourceTree = SOURCE_ROOT; };
-		626296770A173FBB00256F4E /* geometricatlas.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = geometricatlas.h; path = "../../../Documents/Mi C/Standard C/geometricatlas.h"; sourceTree = SOURCE_ROOT; };
-		626296780A173FBB00256F4E /* math3D.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = math3D.c; path = "../../../Documents/Mi C/Standard C/math3D.c"; sourceTree = SOURCE_ROOT; };
-		626296790A173FBB00256F4E /* math3D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = math3D.h; path = "../../../Documents/Mi C/Standard C/math3D.h"; sourceTree = SOURCE_ROOT; };
-		6262967A0A173FBB00256F4E /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = mesh.c; path = "../../../Documents/Mi C/Standard C/mesh.c"; sourceTree = SOURCE_ROOT; };
-		6262967B0A173FBB00256F4E /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = mesh.h; path = "../../../Documents/Mi C/Standard C/mesh.h"; sourceTree = SOURCE_ROOT; };
-		6262967C0A173FBB00256F4E /* talairach.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = talairach.c; path = "../../../Documents/Mi C/Standard C/talairach.c"; sourceTree = SOURCE_ROOT; };
-		6262967D0A173FBC00256F4E /* talairach.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = talairach.h; path = "../../../Documents/Mi C/Standard C/talairach.h"; sourceTree = SOURCE_ROOT; };
-		6262967E0A173FBC00256F4E /* util.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = util.c; path = "../../../Documents/Mi C/Standard C/util.c"; sourceTree = SOURCE_ROOT; };
-		6262967F0A173FBC00256F4E /* util.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = util.h; path = "../../../Documents/Mi C/Standard C/util.h"; sourceTree = SOURCE_ROOT; };
-		626296800A173FBC00256F4E /* volume.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = volume.c; path = "../../../Documents/Mi C/Standard C/volume.c"; sourceTree = SOURCE_ROOT; };
-		626296810A173FBC00256F4E /* volume.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = volume.h; path = "../../../Documents/Mi C/Standard C/volume.h"; sourceTree = SOURCE_ROOT; };
-		626296E10A17443D00256F4E /* curvature.vf1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = curvature.vf1; sourceTree = "<group>"; };
-		626296E20A17443D00256F4E /* cytoarchitecture512.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cytoarchitecture512.tif; sourceTree = "<group>"; };
-		626296E30A17443D00256F4E /* geometric_model.3dmf */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = geometric_model.3dmf; sourceTree = "<group>"; };
-		626296E40A17443D00256F4E /* geometric_model.vf3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = geometric_model.vf3; sourceTree = "<group>"; };
-		626296E50A17443D00256F4E /* gm.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gm.tif; sourceTree = "<group>"; };
-		626296E60A17443D00256F4E /* gm_brodman.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gm_brodman.tif; sourceTree = "<group>"; };
-		626296E70A17443D00256F4E /* gm_sulc.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gm_sulc.tif; sourceTree = "<group>"; };
-		626296E80A17443D00256F4E /* mean.vf1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mean.vf1; sourceTree = "<group>"; };
-		626296E90A17443D00256F4E /* original.3dmf */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = original.3dmf; sourceTree = "<group>"; };
-		626296EA0A17443D00256F4E /* smooth.3dmf */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = smooth.3dmf; sourceTree = "<group>"; };
-		626296EB0A17443D00256F4E /* spherical.3dmf */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = spherical.3dmf; sourceTree = "<group>"; };
-		626296EC0A17443D00256F4E /* sulcal_depth.vf1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sulcal_depth.vf1; sourceTree = "<group>"; };
-		62D79228163BEFED00D32C82 /* Info-Geometric_Atlas__Upgraded_-1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Geometric_Atlas__Upgraded_-1.plist"; sourceTree = "<group>"; };
-		62D79229163BEFED00D32C82 /* Geometric Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometric Atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62D79261163BF08100D32C82 /* Geometric Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometric Atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62D79291163C04FA00D32C82 /* GeometricAtlasHelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GeometricAtlasHelp.html; sourceTree = "<group>"; };
-		62D79293163C04FA00D32C82 /* DG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DG.jpg; sourceTree = "<group>"; };
-		62D79294163C04FA00D32C82 /* intro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro.jpg; sourceTree = "<group>"; };
-		62D79295163C04FA00D32C82 /* OLG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OLG.jpg; sourceTree = "<group>"; };
-		62D79296163C04FA00D32C82 /* OMS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OMS.jpg; sourceTree = "<group>"; };
-		62D79297163C04FA00D32C82 /* OOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OOS.jpg; sourceTree = "<group>"; };
-		62D79298163C04FA00D32C82 /* OsLS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OsLS.jpg; sourceTree = "<group>"; };
-		62D79299163C04FA00D32C82 /* PG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PG.jpg; sourceTree = "<group>"; };
-		62D7929A163C04FA00D32C82 /* PR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PR.jpg; sourceTree = "<group>"; };
-		62D7929B163C04FA00D32C82 /* PT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PT.jpg; sourceTree = "<group>"; };
-		62D7929C163C04FA00D32C82 /* SLGc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SLGc.jpg; sourceTree = "<group>"; };
-		62D7929D163C04FA00D32C82 /* SOG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SOG.jpg; sourceTree = "<group>"; };
-		62D7929E163C04FA00D32C82 /* SOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SOS.jpg; sourceTree = "<group>"; };
-		62EC282D0BB2AF430095AEAC /* colourmap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = colourmap.h; sourceTree = "<group>"; };
-		EE06D5310639498900E04B93 /* Geometric Atlas.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.scriptSuite; path = "Geometric Atlas.scriptSuite"; sourceTree = "<group>"; };
-		EE06D588063949D300E04B93 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.scriptTerminology; name = English; path = "English.lproj/Geometric Atlas.scriptTerminology"; sourceTree = "<group>"; };
-		F537219005BD66C601F75CE8 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
-		F537219105BD66C601F75CE8 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		F537219205BD66C601F75CE8 /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
-		F537219305BD66C601F75CE8 /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
-		F537219405BD66C601F75CE8 /* VolumeView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VolumeView.h; sourceTree = "<group>"; };
-		F537219505BD66C601F75CE8 /* VolumeView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VolumeView.m; sourceTree = "<group>"; };
-		F57897E705393DFD016527F0 /* GA.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GA.icns; sourceTree = "<group>"; };
-		F57D5D5D0525BA49010F87CE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		F57D5D8805289A6D010F87CE /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		F57D5D8905289A6D010F87CE /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		6209C7A41644363000B5BD2C /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		6209C7A51644363000B5BD2C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		6209C7A61644363000B5BD2C /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		6209C7A71644363000B5BD2C /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		6209C7A81644363000B5BD2C /* VolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeView.h; sourceTree = "<group>"; };
+		6209C7A91644363000B5BD2C /* VolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeView.m; sourceTree = "<group>"; };
+		6209C7AA1644363000B5BD2C /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		6209C7AB1644363000B5BD2C /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		6209C7AC1644363000B5BD2C /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		6209C7AD1644363000B5BD2C /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		6209C7AE1644363000B5BD2C /* Trackball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trackball.h; sourceTree = "<group>"; };
+		6209C7AF1644363000B5BD2C /* Trackball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trackball.m; sourceTree = "<group>"; };
+		6209C7B71644363D00B5BD2C /* colourmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colourmap.h; sourceTree = "<group>"; };
+		6209C7B81644363D00B5BD2C /* editmesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = editmesh.c; sourceTree = "<group>"; };
+		6209C7B91644363D00B5BD2C /* editmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editmesh.h; sourceTree = "<group>"; };
+		6209C7BA1644363D00B5BD2C /* geometricatlas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geometricatlas.c; sourceTree = "<group>"; };
+		6209C7BB1644363D00B5BD2C /* geometricatlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometricatlas.h; sourceTree = "<group>"; };
+		6209C7BC1644363D00B5BD2C /* math3D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = math3D.c; sourceTree = "<group>"; };
+		6209C7BD1644363D00B5BD2C /* math3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3D.h; sourceTree = "<group>"; };
+		6209C7BE1644363D00B5BD2C /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mesh.c; sourceTree = "<group>"; };
+		6209C7BF1644363D00B5BD2C /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		6209C7C01644363D00B5BD2C /* talairach.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = talairach.c; sourceTree = "<group>"; };
+		6209C7C11644363D00B5BD2C /* talairach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = talairach.h; sourceTree = "<group>"; };
+		6209C7C21644363D00B5BD2C /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		6209C7C31644363D00B5BD2C /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6209C7C41644363D00B5BD2C /* volume.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = volume.c; sourceTree = "<group>"; };
+		6209C7C51644363D00B5BD2C /* volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = volume.h; sourceTree = "<group>"; };
+		6209C7CE1644364E00B5BD2C /* curvature.vf1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = curvature.vf1; sourceTree = "<group>"; };
+		6209C7CF1644364E00B5BD2C /* cytoarchitecture512.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cytoarchitecture512.tif; sourceTree = "<group>"; };
+		6209C7D01644364E00B5BD2C /* geometric_model.3dmf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geometric_model.3dmf; sourceTree = "<group>"; };
+		6209C7D11644364E00B5BD2C /* geometric_model.vf3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = geometric_model.vf3; sourceTree = "<group>"; };
+		6209C7D21644364E00B5BD2C /* gm.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gm.tif; sourceTree = "<group>"; };
+		6209C7D31644364E00B5BD2C /* gm_brodman.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gm_brodman.tif; sourceTree = "<group>"; };
+		6209C7D41644364E00B5BD2C /* gm_sulc.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gm_sulc.tif; sourceTree = "<group>"; };
+		6209C7D51644364E00B5BD2C /* mean.vf1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mean.vf1; sourceTree = "<group>"; };
+		6209C7D61644364E00B5BD2C /* original.3dmf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = original.3dmf; sourceTree = "<group>"; };
+		6209C7D71644364E00B5BD2C /* smooth.3dmf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smooth.3dmf; sourceTree = "<group>"; };
+		6209C7D81644364E00B5BD2C /* spherical.3dmf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spherical.3dmf; sourceTree = "<group>"; };
+		6209C7D91644364E00B5BD2C /* sulcal_depth.vf1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sulcal_depth.vf1; sourceTree = "<group>"; };
+		6209C7E9164436DF00B5BD2C /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		6209C7EA164436DF00B5BD2C /* MyDocument.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDocument.xib; sourceTree = "<group>"; };
+		6209C80C164437A300B5BD2C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* Geometric_Atlas-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geometric_Atlas-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Geometric Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometric Atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A37F4D1FDCFA73011CA2CEA /* Frameworks */ = {
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1058C7A9FEA54F5311CA2CBB /* Cocoa.framework in Frameworks */,
-				F57D5D6F0525BA49010F87CE /* OpenGL.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62D79221163BEFED00D32C82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62D79222163BEFED00D32C82 /* Cocoa.framework in Frameworks */,
-				62D79223163BEFED00D32C82 /* OpenGL.framework in Frameworks */,
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				6209C80D164437A300B5BD2C /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,9 +120,10 @@
 		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				6209C80C164437A300B5BD2C /* OpenGL.framework */,
 				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
-				F57D5D5D0525BA49010F87CE /* OpenGL.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -308,65 +131,42 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62D79229163BEFED00D32C82 /* Geometric Atlas.app */,
-				62D79261163BF08100D32C82 /* Geometric Atlas.app */,
+				8D15AC370486D014006FF6A4 /* Geometric Atlas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A37F4AAFDCFA73011CA2CEA /* Geometric Atlas Cocoa */ = {
+		2A37F4AAFDCFA73011CA2CEA /* Geometric Atlas */ = {
 			isa = PBXGroup;
 			children = (
-				2A37F4AFFDCFA73011CA2CEA /* Main */,
-				2A37F4ABFDCFA73011CA2CEA /* Objective C */,
-				F57D5D430525AC66010F87CE /* Standard C */,
+				6209C7A31644363000B5BD2C /* Objective C */,
+				6209C7B61644363D00B5BD2C /* Standard C */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
 				19C28FB0FE9D524F11CA2CBB /* Products */,
-				62D79228163BEFED00D32C82 /* Info-Geometric_Atlas__Upgraded_-1.plist */,
 			);
-			name = "Geometric Atlas Cocoa";
+			name = "Geometric Atlas";
 			sourceTree = "<group>";
 		};
-		2A37F4ABFDCFA73011CA2CEA /* Objective C */ = {
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F537219005BD66C601F75CE8 /* AppController.h */,
-				F537219105BD66C601F75CE8 /* AppController.m */,
-				F537219205BD66C601F75CE8 /* MyDocument.h */,
-				F537219305BD66C601F75CE8 /* MyDocument.m */,
-				F537219405BD66C601F75CE8 /* VolumeView.h */,
-				F537219505BD66C601F75CE8 /* VolumeView.m */,
-				F57D5D8805289A6D010F87CE /* MyView.h */,
-				F57D5D8905289A6D010F87CE /* MyView.m */,
-				6215DBAC09F90D80005649DE /* MyOpenGLView.h */,
-				6215DBAD09F90D80005649DE /* MyOpenGLView.m */,
-				626296700A173F8900256F4E /* Trackball.h */,
-				626296710A173F8900256F4E /* Trackball.m */,
-			);
-			name = "Objective C";
-			sourceTree = "<group>";
-		};
-		2A37F4AFFDCFA73011CA2CEA /* Main */ = {
-			isa = PBXGroup;
-			children = (
+				2564AD2C0F5327BB00F57823 /* Geometric_Atlas_Prefix.pch */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
 			);
-			name = Main;
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				626296E00A17443D00256F4E /* GA_Folder */,
+				6209C7E9164436DF00B5BD2C /* MainMenu.xib */,
+				6209C7EA164436DF00B5BD2C /* MyDocument.xib */,
+				6209C7CD1644364E00B5BD2C /* GA_Folder */,
 				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
-				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
-				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				8D15AC360486D014006FF6A4 /* Geometric_Atlas-Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
-				F57897E705393DFD016527F0 /* GA.icns */,
-				62D79290163C04FA00D32C82 /* GeometricAtlasHelp */,
-				EE06D5310639498900E04B93 /* Geometric Atlas.scriptSuite */,
-				EE4C5A4406394A0B00F6AEBD /* Geometric Atlas.scriptTerminology */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -380,140 +180,85 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		626296E00A17443D00256F4E /* GA_Folder */ = {
+		6209C7A31644363000B5BD2C /* Objective C */ = {
 			isa = PBXGroup;
 			children = (
-				626296E10A17443D00256F4E /* curvature.vf1 */,
-				626296E20A17443D00256F4E /* cytoarchitecture512.tif */,
-				626296E30A17443D00256F4E /* geometric_model.3dmf */,
-				626296E40A17443D00256F4E /* geometric_model.vf3 */,
-				626296E50A17443D00256F4E /* gm.tif */,
-				626296E60A17443D00256F4E /* gm_brodman.tif */,
-				626296E70A17443D00256F4E /* gm_sulc.tif */,
-				626296E80A17443D00256F4E /* mean.vf1 */,
-				626296E90A17443D00256F4E /* original.3dmf */,
-				626296EA0A17443D00256F4E /* smooth.3dmf */,
-				626296EB0A17443D00256F4E /* spherical.3dmf */,
-				626296EC0A17443D00256F4E /* sulcal_depth.vf1 */,
+				6209C7A41644363000B5BD2C /* AppController.h */,
+				6209C7A51644363000B5BD2C /* AppController.m */,
+				6209C7A61644363000B5BD2C /* MyDocument.h */,
+				6209C7A71644363000B5BD2C /* MyDocument.m */,
+				6209C7A81644363000B5BD2C /* VolumeView.h */,
+				6209C7A91644363000B5BD2C /* VolumeView.m */,
+				6209C7AA1644363000B5BD2C /* MyView.h */,
+				6209C7AB1644363000B5BD2C /* MyView.m */,
+				6209C7AC1644363000B5BD2C /* MyOpenGLView.h */,
+				6209C7AD1644363000B5BD2C /* MyOpenGLView.m */,
+				6209C7AE1644363000B5BD2C /* Trackball.h */,
+				6209C7AF1644363000B5BD2C /* Trackball.m */,
 			);
-			path = GA_Folder;
+			name = "Objective C";
 			sourceTree = "<group>";
 		};
-		62D79290163C04FA00D32C82 /* GeometricAtlasHelp */ = {
+		6209C7B61644363D00B5BD2C /* Standard C */ = {
 			isa = PBXGroup;
 			children = (
-				62D79291163C04FA00D32C82 /* GeometricAtlasHelp.html */,
-				62D79292163C04FA00D32C82 /* img */,
-			);
-			path = GeometricAtlasHelp;
-			sourceTree = "<group>";
-		};
-		62D79292163C04FA00D32C82 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				62D79293163C04FA00D32C82 /* DG.jpg */,
-				62D79294163C04FA00D32C82 /* intro.jpg */,
-				62D79295163C04FA00D32C82 /* OLG.jpg */,
-				62D79296163C04FA00D32C82 /* OMS.jpg */,
-				62D79297163C04FA00D32C82 /* OOS.jpg */,
-				62D79298163C04FA00D32C82 /* OsLS.jpg */,
-				62D79299163C04FA00D32C82 /* PG.jpg */,
-				62D7929A163C04FA00D32C82 /* PR.jpg */,
-				62D7929B163C04FA00D32C82 /* PT.jpg */,
-				62D7929C163C04FA00D32C82 /* SLGc.jpg */,
-				62D7929D163C04FA00D32C82 /* SOG.jpg */,
-				62D7929E163C04FA00D32C82 /* SOS.jpg */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		F57D5D430525AC66010F87CE /* Standard C */ = {
-			isa = PBXGroup;
-			children = (
-				62EC282D0BB2AF430095AEAC /* colourmap.h */,
-				626296740A173FBB00256F4E /* editmesh.c */,
-				626296750A173FBB00256F4E /* editmesh.h */,
-				626296760A173FBB00256F4E /* geometricatlas.c */,
-				626296770A173FBB00256F4E /* geometricatlas.h */,
-				626296780A173FBB00256F4E /* math3D.c */,
-				626296790A173FBB00256F4E /* math3D.h */,
-				6262967A0A173FBB00256F4E /* mesh.c */,
-				6262967B0A173FBB00256F4E /* mesh.h */,
-				6262967C0A173FBB00256F4E /* talairach.c */,
-				6262967D0A173FBC00256F4E /* talairach.h */,
-				6262967E0A173FBC00256F4E /* util.c */,
-				6262967F0A173FBC00256F4E /* util.h */,
-				626296800A173FBC00256F4E /* volume.c */,
-				626296810A173FBC00256F4E /* volume.h */,
+				6209C7B71644363D00B5BD2C /* colourmap.h */,
+				6209C7B81644363D00B5BD2C /* editmesh.c */,
+				6209C7B91644363D00B5BD2C /* editmesh.h */,
+				6209C7BA1644363D00B5BD2C /* geometricatlas.c */,
+				6209C7BB1644363D00B5BD2C /* geometricatlas.h */,
+				6209C7BC1644363D00B5BD2C /* math3D.c */,
+				6209C7BD1644363D00B5BD2C /* math3D.h */,
+				6209C7BE1644363D00B5BD2C /* mesh.c */,
+				6209C7BF1644363D00B5BD2C /* mesh.h */,
+				6209C7C01644363D00B5BD2C /* talairach.c */,
+				6209C7C11644363D00B5BD2C /* talairach.h */,
+				6209C7C21644363D00B5BD2C /* util.c */,
+				6209C7C31644363D00B5BD2C /* util.h */,
+				6209C7C41644363D00B5BD2C /* volume.c */,
+				6209C7C51644363D00B5BD2C /* volume.h */,
 			);
 			name = "Standard C";
 			sourceTree = "<group>";
 		};
+		6209C7CD1644364E00B5BD2C /* GA_Folder */ = {
+			isa = PBXGroup;
+			children = (
+				6209C7CE1644364E00B5BD2C /* curvature.vf1 */,
+				6209C7CF1644364E00B5BD2C /* cytoarchitecture512.tif */,
+				6209C7D01644364E00B5BD2C /* geometric_model.3dmf */,
+				6209C7D11644364E00B5BD2C /* geometric_model.vf3 */,
+				6209C7D21644364E00B5BD2C /* gm.tif */,
+				6209C7D31644364E00B5BD2C /* gm_brodman.tif */,
+				6209C7D41644364E00B5BD2C /* gm_sulc.tif */,
+				6209C7D51644364E00B5BD2C /* mean.vf1 */,
+				6209C7D61644364E00B5BD2C /* original.3dmf */,
+				6209C7D71644364E00B5BD2C /* smooth.3dmf */,
+				6209C7D81644364E00B5BD2C /* spherical.3dmf */,
+				6209C7D91644364E00B5BD2C /* sulcal_depth.vf1 */,
+			);
+			path = GA_Folder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		2A37F4C7FDCFA73011CA2CEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F57D5D8A05289A6D010F87CE /* MyView.h in Headers */,
-				F537219605BD66C601F75CE8 /* AppController.h in Headers */,
-				F537219805BD66C601F75CE8 /* MyDocument.h in Headers */,
-				F537219A05BD66C601F75CE8 /* VolumeView.h in Headers */,
-				6215DBAE09F90D80005649DE /* MyOpenGLView.h in Headers */,
-				626296720A173F8900256F4E /* Trackball.h in Headers */,
-				626296830A173FBC00256F4E /* editmesh.h in Headers */,
-				626296850A173FBC00256F4E /* geometricatlas.h in Headers */,
-				626296870A173FBC00256F4E /* math3D.h in Headers */,
-				626296890A173FBC00256F4E /* mesh.h in Headers */,
-				6262968B0A173FBC00256F4E /* talairach.h in Headers */,
-				6262968D0A173FBC00256F4E /* util.h in Headers */,
-				6262968F0A173FBC00256F4E /* volume.h in Headers */,
-				62EC282E0BB2AF430095AEAC /* colourmap.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62D791EF163BEFED00D32C82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62D791F0163BEFED00D32C82 /* MyView.h in Headers */,
-				62D791F1163BEFED00D32C82 /* AppController.h in Headers */,
-				62D791F2163BEFED00D32C82 /* MyDocument.h in Headers */,
-				62D791F3163BEFED00D32C82 /* VolumeView.h in Headers */,
-				62D791F4163BEFED00D32C82 /* MyOpenGLView.h in Headers */,
-				62D791F5163BEFED00D32C82 /* Trackball.h in Headers */,
-				62D791F6163BEFED00D32C82 /* editmesh.h in Headers */,
-				62D791F7163BEFED00D32C82 /* geometricatlas.h in Headers */,
-				62D791F8163BEFED00D32C82 /* math3D.h in Headers */,
-				62D791F9163BEFED00D32C82 /* mesh.h in Headers */,
-				62D791FA163BEFED00D32C82 /* talairach.h in Headers */,
-				62D791FB163BEFED00D32C82 /* util.h in Headers */,
-				62D791FC163BEFED00D32C82 /* volume.h in Headers */,
-				62D791FD163BEFED00D32C82 /* colourmap.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		62D791EE163BEFED00D32C82 /* Geometric Atlas (Upgraded) */ = {
+		8D15AC270486D014006FF6A4 /* Geometric Atlas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62D79224163BEFED00D32C82 /* Build configuration list for PBXNativeTarget "Geometric Atlas (Upgraded)" */;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Geometric Atlas" */;
 			buildPhases = (
-				62D791EF163BEFED00D32C82 /* Headers */,
-				62D791FE163BEFED00D32C82 /* Resources */,
-				62D79212163BEFED00D32C82 /* Sources */,
-				62D79221163BEFED00D32C82 /* Frameworks */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Geometric Atlas (Upgraded)";
+			name = "Geometric Atlas";
 			productInstallPath = "$(HOME)/Applications";
-			productName = "Geometric Atlas Cocoa";
-			productReference = 62D79229163BEFED00D32C82 /* Geometric Atlas.app */;
+			productName = "Geometric Atlas";
+			productReference = 8D15AC370486D014006FF6A4 /* Geometric Atlas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -521,127 +266,63 @@
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 6286197409277B3E0060DCC8 /* Build configuration list for PBXProject "Geometric Atlas" */;
-			compatibilityVersion = "Xcode 3.0";
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Geometric Atlas" */;
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Geometric Atlas Cocoa */;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Geometric Atlas */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62D791EE163BEFED00D32C82 /* Geometric Atlas (Upgraded) */,
-				2A37F4C6FDCFA73011CA2CEA /* Geometric Atlas */,
+				8D15AC270486D014006FF6A4 /* Geometric Atlas */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A37F4C9FDCFA73011CA2CEA /* Resources */ = {
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				080E96D9FE201CDB7F000001 /* Credits.rtf in Resources */,
-				080E96DAFE201CDB7F000001 /* MainMenu.nib in Resources */,
-				080E96DBFE201CDB7F000001 /* MyDocument.nib in Resources */,
-				089C1661FE840EACC02AAC07 /* InfoPlist.strings in Resources */,
-				F57897E805393DFD016527F0 /* GA.icns in Resources */,
-				EE06D5320639498900E04B93 /* Geometric Atlas.scriptSuite in Resources */,
-				EE4C5A4506394A0B00F6AEBD /* Geometric Atlas.scriptTerminology in Resources */,
-				626296ED0A17443D00256F4E /* curvature.vf1 in Resources */,
-				626296EE0A17443D00256F4E /* cytoarchitecture512.tif in Resources */,
-				626296EF0A17443D00256F4E /* geometric_model.3dmf in Resources */,
-				626296F00A17443D00256F4E /* geometric_model.vf3 in Resources */,
-				626296F10A17443D00256F4E /* gm.tif in Resources */,
-				626296F20A17443D00256F4E /* gm_brodman.tif in Resources */,
-				626296F30A17443D00256F4E /* gm_sulc.tif in Resources */,
-				626296F40A17443D00256F4E /* mean.vf1 in Resources */,
-				626296F50A17443D00256F4E /* original.3dmf in Resources */,
-				626296F60A17443D00256F4E /* smooth.3dmf in Resources */,
-				626296F70A17443D00256F4E /* spherical.3dmf in Resources */,
-				626296F80A17443D00256F4E /* sulcal_depth.vf1 in Resources */,
-				62D7929F163C04FA00D32C82 /* GeometricAtlasHelp.html in Resources */,
-				62D792A0163C04FA00D32C82 /* DG.jpg in Resources */,
-				62D792A1163C04FA00D32C82 /* intro.jpg in Resources */,
-				62D792A2163C04FA00D32C82 /* OLG.jpg in Resources */,
-				62D792A3163C04FA00D32C82 /* OMS.jpg in Resources */,
-				62D792A4163C04FA00D32C82 /* OOS.jpg in Resources */,
-				62D792A5163C04FA00D32C82 /* OsLS.jpg in Resources */,
-				62D792A6163C04FA00D32C82 /* PG.jpg in Resources */,
-				62D792A7163C04FA00D32C82 /* PR.jpg in Resources */,
-				62D792A8163C04FA00D32C82 /* PT.jpg in Resources */,
-				62D792A9163C04FA00D32C82 /* SLGc.jpg in Resources */,
-				62D792AA163C04FA00D32C82 /* SOG.jpg in Resources */,
-				62D792AB163C04FA00D32C82 /* SOS.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62D791FE163BEFED00D32C82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62D791FF163BEFED00D32C82 /* Credits.rtf in Resources */,
-				62D79200163BEFED00D32C82 /* MainMenu.nib in Resources */,
-				62D79201163BEFED00D32C82 /* MyDocument.nib in Resources */,
-				62D79202163BEFED00D32C82 /* InfoPlist.strings in Resources */,
-				62D79203163BEFED00D32C82 /* GA.icns in Resources */,
-				62D79204163BEFED00D32C82 /* Geometric Atlas.scriptSuite in Resources */,
-				62D79205163BEFED00D32C82 /* Geometric Atlas.scriptTerminology in Resources */,
-				62D79206163BEFED00D32C82 /* curvature.vf1 in Resources */,
-				62D79207163BEFED00D32C82 /* cytoarchitecture512.tif in Resources */,
-				62D79208163BEFED00D32C82 /* geometric_model.3dmf in Resources */,
-				62D79209163BEFED00D32C82 /* geometric_model.vf3 in Resources */,
-				62D7920A163BEFED00D32C82 /* gm.tif in Resources */,
-				62D7920B163BEFED00D32C82 /* gm_brodman.tif in Resources */,
-				62D7920C163BEFED00D32C82 /* gm_sulc.tif in Resources */,
-				62D7920D163BEFED00D32C82 /* mean.vf1 in Resources */,
-				62D7920E163BEFED00D32C82 /* original.3dmf in Resources */,
-				62D7920F163BEFED00D32C82 /* smooth.3dmf in Resources */,
-				62D79210163BEFED00D32C82 /* spherical.3dmf in Resources */,
-				62D79211163BEFED00D32C82 /* sulcal_depth.vf1 in Resources */,
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				6209C7DA1644364E00B5BD2C /* curvature.vf1 in Resources */,
+				6209C7DB1644364E00B5BD2C /* cytoarchitecture512.tif in Resources */,
+				6209C7DC1644364E00B5BD2C /* geometric_model.3dmf in Resources */,
+				6209C7DD1644364E00B5BD2C /* geometric_model.vf3 in Resources */,
+				6209C7DE1644364E00B5BD2C /* gm.tif in Resources */,
+				6209C7DF1644364E00B5BD2C /* gm_brodman.tif in Resources */,
+				6209C7E01644364E00B5BD2C /* gm_sulc.tif in Resources */,
+				6209C7E11644364E00B5BD2C /* mean.vf1 in Resources */,
+				6209C7E21644364E00B5BD2C /* original.3dmf in Resources */,
+				6209C7E31644364E00B5BD2C /* smooth.3dmf in Resources */,
+				6209C7E41644364E00B5BD2C /* spherical.3dmf in Resources */,
+				6209C7E51644364E00B5BD2C /* sulcal_depth.vf1 in Resources */,
+				6209C7EB164436DF00B5BD2C /* MainMenu.xib in Resources */,
+				6209C7EC164436DF00B5BD2C /* MyDocument.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A37F4CEFDCFA73011CA2CEA /* Sources */ = {
+		8D15AC300486D014006FF6A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A37F4D0FDCFA73011CA2CEA /* main.m in Sources */,
-				F57D5D8B05289A6D010F87CE /* MyView.m in Sources */,
-				F537219705BD66C601F75CE8 /* AppController.m in Sources */,
-				F537219905BD66C601F75CE8 /* MyDocument.m in Sources */,
-				F537219B05BD66C601F75CE8 /* VolumeView.m in Sources */,
-				6215DBAF09F90D80005649DE /* MyOpenGLView.m in Sources */,
-				626296730A173F8900256F4E /* Trackball.m in Sources */,
-				626296820A173FBC00256F4E /* editmesh.c in Sources */,
-				626296840A173FBC00256F4E /* geometricatlas.c in Sources */,
-				626296860A173FBC00256F4E /* math3D.c in Sources */,
-				626296880A173FBC00256F4E /* mesh.c in Sources */,
-				6262968A0A173FBC00256F4E /* talairach.c in Sources */,
-				6262968C0A173FBC00256F4E /* util.c in Sources */,
-				6262968E0A173FBC00256F4E /* volume.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62D79212163BEFED00D32C82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62D79213163BEFED00D32C82 /* main.m in Sources */,
-				62D79214163BEFED00D32C82 /* MyView.m in Sources */,
-				62D79215163BEFED00D32C82 /* AppController.m in Sources */,
-				62D79216163BEFED00D32C82 /* MyDocument.m in Sources */,
-				62D79217163BEFED00D32C82 /* VolumeView.m in Sources */,
-				62D79218163BEFED00D32C82 /* MyOpenGLView.m in Sources */,
-				62D79219163BEFED00D32C82 /* Trackball.m in Sources */,
-				62D7921A163BEFED00D32C82 /* editmesh.c in Sources */,
-				62D7921B163BEFED00D32C82 /* geometricatlas.c in Sources */,
-				62D7921C163BEFED00D32C82 /* math3D.c in Sources */,
-				62D7921D163BEFED00D32C82 /* mesh.c in Sources */,
-				62D7921E163BEFED00D32C82 /* talairach.c in Sources */,
-				62D7921F163BEFED00D32C82 /* util.c in Sources */,
-				62D79220163BEFED00D32C82 /* volume.c in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				6209C7B01644363000B5BD2C /* AppController.m in Sources */,
+				6209C7B11644363000B5BD2C /* MyDocument.m in Sources */,
+				6209C7B21644363000B5BD2C /* VolumeView.m in Sources */,
+				6209C7B31644363000B5BD2C /* MyView.m in Sources */,
+				6209C7B41644363000B5BD2C /* MyOpenGLView.m in Sources */,
+				6209C7B51644363000B5BD2C /* Trackball.m in Sources */,
+				6209C7C61644363D00B5BD2C /* editmesh.c in Sources */,
+				6209C7C71644363D00B5BD2C /* geometricatlas.c in Sources */,
+				6209C7C81644363D00B5BD2C /* math3D.c in Sources */,
+				6209C7C91644363D00B5BD2C /* mesh.c in Sources */,
+				6209C7CA1644363D00B5BD2C /* talairach.c in Sources */,
+				6209C7CB1644363D00B5BD2C /* util.c in Sources */,
+				6209C7CC1644363D00B5BD2C /* volume.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,22 +337,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A37F4B5FDCFA73011CA2CEA /* English */,
-			);
-			name = MyDocument.nib;
-			sourceTree = "<group>";
-		};
-		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A37F4B7FDCFA73011CA2CEA /* English */,
-			);
-			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
 		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -680,214 +345,86 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		EE4C5A4406394A0B00F6AEBD /* Geometric Atlas.scriptTerminology */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE06D588063949D300E04B93 /* English */,
-			);
-			name = "Geometric Atlas.scriptTerminology";
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6286197109277B3E0060DCC8 /* Development */ = {
+		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				HEADER_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geometric_Atlas_Prefix.pch;
+				INFOPLIST_FILE = "Geometric_Atlas-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Geometric Atlas";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
 			};
-			name = Development;
+			name = Debug;
 		};
-		6286197209277B3E0060DCC8 /* Deployment */ = {
+		C05733C908A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				HEADER_SEARCH_PATHS = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geometric_Atlas_Prefix.pch;
+				INFOPLIST_FILE = "Geometric_Atlas-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Geometric Atlas";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
 			};
-			name = Deployment;
+			name = Release;
 		};
-		6286197309277B3E0060DCC8 /* Default */ = {
+		C05733CC08A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "Geometric Atlas";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Default;
-		};
-		6286197509277B3E0060DCC8 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-			};
-			name = Development;
-		};
-		6286197609277B3E0060DCC8 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-			};
-			name = Deployment;
-		};
-		6286197709277B3E0060DCC8 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-			};
-			name = Default;
-		};
-		62D79225163BEFED00D32C82 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Geometric_Atlas__Upgraded_-1.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "Geometric Atlas";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
 			};
-			name = Development;
+			name = Debug;
 		};
-		62D79226163BEFED00D32C82 /* Deployment */ = {
+		C05733CD08A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Geometric_Atlas__Upgraded_-1.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "Geometric Atlas";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
 			};
-			name = Deployment;
-		};
-		62D79227163BEFED00D32C82 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Geometric_Atlas__Upgraded_-1.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "Geometric Atlas";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6286197009277B3E0060DCC8 /* Build configuration list for PBXApplicationTarget "Geometric Atlas" */ = {
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Geometric Atlas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6286197109277B3E0060DCC8 /* Development */,
-				6286197209277B3E0060DCC8 /* Deployment */,
-				6286197309277B3E0060DCC8 /* Default */,
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		6286197409277B3E0060DCC8 /* Build configuration list for PBXProject "Geometric Atlas" */ = {
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Geometric Atlas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6286197509277B3E0060DCC8 /* Development */,
-				6286197609277B3E0060DCC8 /* Deployment */,
-				6286197709277B3E0060DCC8 /* Default */,
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		62D79224163BEFED00D32C82 /* Build configuration list for PBXNativeTarget "Geometric Atlas (Upgraded)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62D79225163BEFED00D32C82 /* Development */,
-				62D79226163BEFED00D32C82 /* Deployment */,
-				62D79227163BEFED00D32C82 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

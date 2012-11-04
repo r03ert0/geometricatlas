@@ -8,7 +8,7 @@
 {
     IBOutlet NSWindow		*window;
 	IBOutlet NSWindow		*splash;
-	IBOutlet NSTextView	*logField;
+	IBOutlet NSTextView		*logField;
 
     // volume tab outlets
     IBOutlet NSPopUpButton	*volumePopUp;

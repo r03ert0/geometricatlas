@@ -31,8 +31,8 @@
         
         path_vf3_gm=	    @"/geometric_model.vf3";
         path_img_gm=	    @"/gm.tif";
-        path_img_gmsulci=   @"/gm_sulc.tif";
-        path_img_gmbrodman=   @"/gm_brodman.tif";
+        path_img_gmsulci=   [[NSString alloc] initWithString:@"/gm_sulc.tif"];
+        path_img_gmbrodman= [[NSString alloc] initWithString:@"/gm_brodman.tif"];
     
         for(i=0;i<12;i++) MatrixTalairachToMeshSpace[i]=m[i];
         
@@ -383,15 +383,46 @@
     }
     [self setVerticesData];
 }
-- (IBAction) changeGMTexture: (id) sender
+- (IBAction)changeGMTexture: (id) sender
 {
     int	selectedTexture=[sender indexOfSelectedItem];
 
     switch(selectedTexture)
     {
         case 0:[self setTextureActive:NO];		break;
-        case 1:[self setTextureActive:YES];		break;
-        case 2:[self setTextureActive:YES];		break;
+        case 1:
+		{
+			NSString	*str=[[[NSBundle mainBundle] resourcePath] stringByAppendingString:path_img_gm];
+			if(bmp_gm)
+				[bmp_gm release];
+			bmp_gm=[[NSBitmapImageRep imageRepWithContentsOfFile:str] retain];
+			[self setGMPicture];
+			[self initGMTexture:bmp_gm];
+			[self setTextureActive:YES];
+			break;
+		}
+        case 2:
+		{
+			NSString	*str=[[[NSBundle mainBundle] resourcePath] stringByAppendingString:path_img_gmbrodman];
+			if(bmp_gm)
+				[bmp_gm release];
+			bmp_gm=[[NSBitmapImageRep imageRepWithContentsOfFile:str] retain];
+			[self setGMPicture];
+			[self initGMTexture:bmp_gm];
+			[self setTextureActive:YES];
+			break;
+		}
+        case 3:
+		{
+			NSString	*str=[[[NSBundle mainBundle] resourcePath] stringByAppendingString:path_img_gmsulci];
+			if(bmp_gm)
+				[bmp_gm release];
+			bmp_gm=[[NSBitmapImageRep imageRepWithContentsOfFile:str] retain];
+			[self setGMPicture];
+			[self initGMTexture:bmp_gm];
+			[self setTextureActive:YES];
+			break;
+		}
     }
 }
 -(void) awakeGA
