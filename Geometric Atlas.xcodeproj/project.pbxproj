@@ -35,6 +35,7 @@
 		6209C7EB164436DF00B5BD2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7E9164436DF00B5BD2C /* MainMenu.xib */; };
 		6209C7EC164436DF00B5BD2C /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6209C7EA164436DF00B5BD2C /* MyDocument.xib */; };
 		6209C80D164437A300B5BD2C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6209C80C164437A300B5BD2C /* OpenGL.framework */; };
+		62C7F641164672D600C4F672 /* GA.icns in Resources */ = {isa = PBXBuildFile; fileRef = 62C7F640164672D600C4F672 /* GA.icns */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -92,6 +93,7 @@
 		6209C7E9164436DF00B5BD2C /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		6209C7EA164436DF00B5BD2C /* MyDocument.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDocument.xib; sourceTree = "<group>"; };
 		6209C80C164437A300B5BD2C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		62C7F640164672D600C4F672 /* GA.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GA.icns; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Geometric_Atlas-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geometric_Atlas-Info.plist"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Geometric Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometric Atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 			children = (
 				6209C7E9164436DF00B5BD2C /* MainMenu.xib */,
 				6209C7EA164436DF00B5BD2C /* MyDocument.xib */,
+				62C7F640164672D600C4F672 /* GA.icns */,
 				6209C7CD1644364E00B5BD2C /* GA_Folder */,
 				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
 				8D15AC360486D014006FF6A4 /* Geometric_Atlas-Info.plist */,
@@ -299,6 +302,7 @@
 				6209C7E51644364E00B5BD2C /* sulcal_depth.vf1 in Resources */,
 				6209C7EB164436DF00B5BD2C /* MainMenu.xib in Resources */,
 				6209C7EC164436DF00B5BD2C /* MyDocument.xib in Resources */,
+				62C7F641164672D600C4F672 /* GA.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
